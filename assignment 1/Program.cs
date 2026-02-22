@@ -26,9 +26,8 @@ else if (amount >= 300 && amount <= 499)
 else if (amount <300)
 {
     float amount_3 =  (float) amount;
-    double finalamount_2 = amount - amount_3;
-
-    Console.WriteLine($"final price :{finalamount_2} ");
+   
+    Console.WriteLine($"final price :{amount_3} ");
 
 }
 
